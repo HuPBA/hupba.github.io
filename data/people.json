@@ -1,0 +1,556 @@
+{
+  "schema": 1,
+  "people": [
+    {
+      "id": "sergio-escalera",
+      "name": "Sergio Escalera",
+      "aliases": [],
+      "status": "current",
+      "roles": [
+        {
+          "role": "director",
+          "from": null,
+          "to": null,
+          "source": "https://web.archive.org/web/20260717172342/https://hupba.com/"
+        }
+      ],
+      "website": "https://sergioescalera.com",
+      "links": {
+        "scholar": "https://scholar.google.com/citations?user=oI6AIkMAAAAJ",
+        "dblp": "http://dblp.uni-trier.de/pers/hd/e/Escalera:Sergio.html"
+      },
+      "photo": "sergio_Escalera-1021x1024.jpg",
+      "affiliation": "Universitat de Barcelona",
+      "notes": "",
+      "verified": null
+    },
+    {
+      "id": "meysam-madadi",
+      "name": "Meysam Madadi",
+      "aliases": [],
+      "status": "current",
+      "roles": [
+        {
+          "role": "senior-member",
+          "from": null,
+          "to": null,
+          "source": "https://sergioescalera.com/students/"
+        }
+      ],
+      "website": "https://www.linkedin.com/in/meysam-madadi-99601956/",
+      "links": {},
+      "photo": "meysam.jpg",
+      "affiliation": "Universitat de Barcelona",
+      "notes": "Web personal no localitzada; només LinkedIn.",
+      "verified": null
+    },
+    {
+      "id": "albert-clapes",
+      "name": "Albert Clapés",
+      "aliases": [],
+      "status": "current",
+      "roles": [
+        {
+          "role": "senior-member",
+          "from": null,
+          "to": null,
+          "source": "https://sergioescalera.com/students/"
+        }
+      ],
+      "website": "https://scholar.google.com/citations?user=n4BtpPsAAAAJ&hl=en",
+      "links": {},
+      "photo": "clapes.png",
+      "affiliation": "Universitat de Barcelona",
+      "notes": "Només Google Scholar com a web.",
+      "verified": null
+    },
+    {
+      "id": "julio-jacques",
+      "name": "Julio C. S. Jacques",
+      "aliases": [],
+      "status": "current",
+      "roles": [
+        {
+          "role": "senior-member",
+          "from": null,
+          "to": null,
+          "source": "https://web.archive.org/web/20260717172342/https://hupba.com/"
+        }
+      ],
+      "website": "https://sites.google.com/view/juliojj",
+      "links": {},
+      "photo": "julio-1.png",
+      "affiliation": "Universitat de Barcelona",
+      "notes": "",
+      "verified": null
+    },
+    {
+      "id": "xavier-baro",
+      "name": "Xavier Baró",
+      "aliases": [],
+      "status": "current",
+      "roles": [
+        {
+          "role": "senior-member",
+          "from": null,
+          "to": null,
+          "source": "https://web.archive.org/web/20260717172342/https://hupba.com/"
+        }
+      ],
+      "website": "https://xbaro.github.io",
+      "links": {},
+      "photo": null,
+      "affiliation": "Universitat de Barcelona",
+      "notes": "",
+      "verified": null
+    },
+    {
+      "id": "cristina-palmero",
+      "name": "Cristina Palmero",
+      "aliases": [],
+      "status": "current",
+      "roles": [
+        {
+          "role": "senior-member",
+          "from": null,
+          "to": null,
+          "source": "https://sergioescalera.com/students/"
+        }
+      ],
+      "website": "https://crisie.github.io/",
+      "links": {},
+      "photo": "cristina.jpg",
+      "affiliation": "Universitat de Barcelona",
+      "notes": "Doctorada el 2024 (font: pàgina d'estudiants).",
+      "verified": null
+    },
+    {
+      "id": "hunor-laczko",
+      "name": "Hunor Laczko",
+      "aliases": [],
+      "status": "current",
+      "roles": [
+        {
+          "role": "phd-student",
+          "from": null,
+          "to": null,
+          "source": "https://sergioescalera.com/students/"
+        }
+      ],
+      "website": "https://hunorlaczko.github.io/",
+      "links": {},
+      "photo": "hunor.jpg",
+      "affiliation": "Universitat de Barcelona",
+      "notes": "",
+      "verified": null
+    },
+    {
+      "id": "artur-xarles",
+      "name": "Artur Xarles",
+      "aliases": [],
+      "status": "current",
+      "roles": [
+        {
+          "role": "phd-student",
+          "from": null,
+          "to": null,
+          "source": "https://sergioescalera.com/students/"
+        }
+      ],
+      "website": "https://arturxe2.github.io/",
+      "links": {},
+      "photo": "artur_xarles.jpg",
+      "affiliation": "Universitat de Barcelona",
+      "notes": "",
+      "verified": null
+    },
+    {
+      "id": "arnau-barrera",
+      "name": "Arnau Barrera",
+      "aliases": [],
+      "status": "current",
+      "roles": [
+        {
+          "role": "phd-student",
+          "from": null,
+          "to": null,
+          "source": "https://sergioescalera.com/students/"
+        }
+      ],
+      "website": null,
+      "links": {},
+      "photo": "arnau.png",
+      "affiliation": "Universitat de Barcelona",
+      "notes": "Rol inferit de la bio de la font; confirmar.",
+      "verified": null
+    },
+    {
+      "id": "libang-jia",
+      "name": "Libang Jia",
+      "aliases": [],
+      "status": "current",
+      "roles": [
+        {
+          "role": "phd-student",
+          "from": null,
+          "to": null,
+          "source": "https://sergioescalera.com/students/"
+        }
+      ],
+      "website": null,
+      "links": {},
+      "photo": "libang.png",
+      "affiliation": "Universitat de Barcelona",
+      "notes": "Rol inferit de la bio de la font; confirmar.",
+      "verified": null
+    },
+    {
+      "id": "loc-phat-truong",
+      "name": "Loc-Phat Truong",
+      "aliases": [],
+      "status": "current",
+      "roles": [
+        {
+          "role": "phd-student",
+          "from": null,
+          "to": null,
+          "source": "https://sergioescalera.com/students/"
+        }
+      ],
+      "website": "https://locphattruong.github.io/",
+      "links": {},
+      "photo": "phat.png",
+      "affiliation": "Universitat de Barcelona",
+      "notes": "",
+      "verified": null
+    },
+    {
+      "id": "oriol-rabasseda",
+      "name": "Oriol Rabasseda",
+      "aliases": [],
+      "status": "current",
+      "roles": [
+        {
+          "role": "phd-student",
+          "from": null,
+          "to": null,
+          "source": "https://sergioescalera.com/students/"
+        }
+      ],
+      "website": null,
+      "links": {},
+      "photo": "oriol.png",
+      "affiliation": "Universitat de Barcelona",
+      "notes": "Rol inferit de la bio de la font; confirmar.",
+      "verified": null
+    },
+    {
+      "id": "pablo-ruiz-ponce",
+      "name": "Pablo Ruiz-Ponce",
+      "aliases": [],
+      "status": "current",
+      "roles": [
+        {
+          "role": "phd-student",
+          "from": null,
+          "to": null,
+          "source": "https://sergioescalera.com/students/"
+        }
+      ],
+      "website": "https://pabloruizponce.com",
+      "links": {},
+      "photo": "pablo.png",
+      "affiliation": "Universidad de Alicante (en col·laboració amb la UB)",
+      "notes": "",
+      "verified": null
+    },
+    {
+      "id": "sorina-smeureanu",
+      "name": "Sorina Smeureanu",
+      "aliases": [],
+      "status": "current",
+      "roles": [
+        {
+          "role": "phd-student",
+          "from": null,
+          "to": null,
+          "source": "https://web.archive.org/web/20260717172342/https://hupba.com/"
+        }
+      ],
+      "website": "https://www.linkedin.com/in/sorina-georgiana-smeureanu-b2b608116/",
+      "links": {},
+      "photo": "sorina.jpg",
+      "affiliation": "Universitat de Barcelona",
+      "notes": "No surt a la pàgina d'estudiants del director; mantinguda per decisió de Xavier (2026-11-20).",
+      "verified": null
+    },
+    {
+      "id": "yudong-yan",
+      "name": "Yudong Yan",
+      "aliases": [],
+      "status": "current",
+      "roles": [
+        {
+          "role": "phd-student",
+          "from": null,
+          "to": null,
+          "source": "https://web.archive.org/web/20260717172342/https://hupba.com/"
+        }
+      ],
+      "website": "https://www.linkedin.com/in/%E6%98%B1%E4%B8%9C-%E9%98%8E-396569105/",
+      "links": {},
+      "photo": "yudong-207x300-1.png",
+      "affiliation": "Universitat de Barcelona",
+      "notes": "No surt a la font del director; mantingut per decisió de Xavier.",
+      "verified": null
+    },
+    {
+      "id": "inaki-erregue",
+      "name": "Iñaki Erregue",
+      "aliases": [],
+      "status": "current",
+      "roles": [
+        {
+          "role": "phd-student",
+          "from": null,
+          "to": null,
+          "source": "https://web.archive.org/web/20260717172342/https://hupba.com/"
+        }
+      ],
+      "website": "https://www.linkedin.com/in/i%C3%B1aki-erregue-045544150/",
+      "links": {},
+      "photo": null,
+      "affiliation": "Universitat de Barcelona",
+      "notes": "No surt a la font del director; mantingut per decisió de Xavier.",
+      "verified": null
+    },
+    {
+      "id": "guillem-martinez",
+      "name": "Guillem Martínez",
+      "aliases": [],
+      "status": "current",
+      "roles": [
+        {
+          "role": "phd-student",
+          "from": null,
+          "to": null,
+          "source": "https://web.archive.org/web/20260717172342/https://hupba.com/"
+        }
+      ],
+      "website": "https://www.linkedin.com/in/guillemmartinezsanchez/",
+      "links": {},
+      "photo": null,
+      "affiliation": "Universitat de Barcelona",
+      "notes": "No surt a la font del director; mantingut per decisió de Xavier.",
+      "verified": null
+    },
+    {
+      "id": "johnny-nunez",
+      "name": "Johnny Núñez",
+      "aliases": [],
+      "status": "current",
+      "roles": [
+        {
+          "role": "phd-student",
+          "from": null,
+          "to": null,
+          "source": "https://web.archive.org/web/20260717172342/https://hupba.com/"
+        }
+      ],
+      "website": "https://johnnynunez.github.io/",
+      "links": {},
+      "photo": null,
+      "affiliation": "Universitat de Barcelona",
+      "notes": "No surt a la font del director; mantingut per decisió de Xavier.",
+      "verified": null
+    },
+    {
+      "id": "michal-choinski",
+      "name": "Michal Choinski",
+      "aliases": [],
+      "status": "current",
+      "roles": [
+        {
+          "role": "phd-student",
+          "from": null,
+          "to": null,
+          "source": "https://web.archive.org/web/20260717172342/https://hupba.com/"
+        }
+      ],
+      "website": "https://www.linkedin.com/in/michalchoinski/",
+      "links": {},
+      "photo": null,
+      "affiliation": "Universitat de Barcelona",
+      "notes": "No surt a la font del director; mantingut per decisió de Xavier.",
+      "verified": null
+    },
+    {
+      "id": "ruben-ballester",
+      "name": "Rubén Ballester",
+      "aliases": [],
+      "status": "former",
+      "roles": [
+        {
+          "role": "phd-student",
+          "from": null,
+          "to": "2026-04-07",
+          "source": "https://sergioescalera.com/students/"
+        }
+      ],
+      "website": "https://rubenbb.com",
+      "links": {},
+      "photo": "ruben.png",
+      "affiliation": "Universitat de Barcelona",
+      "notes": "Tesi llegida 7/04/2026 segons la font.",
+      "verified": null
+    },
+    {
+      "id": "david-pujol",
+      "name": "David Pujol",
+      "aliases": [
+        "David Pujol Perich"
+      ],
+      "status": "former",
+      "roles": [
+        {
+          "role": "phd-student",
+          "from": null,
+          "to": "2026-06-17",
+          "source": "https://sergioescalera.com/students/"
+        }
+      ],
+      "website": "https://davidpujol.github.io/",
+      "links": {},
+      "photo": "DavidPujol-150x150-1.jpg",
+      "affiliation": "Universitat de Barcelona",
+      "notes": "Tesi 17/06/2026 segons la font.",
+      "verified": null
+    },
+    {
+      "id": "german-barquero",
+      "name": "German Barquero",
+      "aliases": [],
+      "status": "former",
+      "roles": [
+        {
+          "role": "phd-student",
+          "from": null,
+          "to": null,
+          "source": "https://sergioescalera.com/students/"
+        }
+      ],
+      "website": "https://barquerogerman.github.io/",
+      "links": {},
+      "photo": "GermanB1.jpg",
+      "affiliation": "Universitat de Barcelona",
+      "notes": "",
+      "verified": null
+    },
+    {
+      "id": "zejian-zhang",
+      "name": "Zejian Zhang",
+      "aliases": [],
+      "status": "former",
+      "roles": [
+        {
+          "role": "phd-student",
+          "from": null,
+          "to": "2025",
+          "source": "https://sergioescalera.com/students/"
+        }
+      ],
+      "website": "https://dblp.org/pid/116/8679.html",
+      "links": {},
+      "photo": "Zejian-797x1024.jpg",
+      "affiliation": "Universitat de Barcelona",
+      "notes": "Tesi 2025 segons la font.",
+      "verified": null
+    },
+    {
+      "id": "javier-selva",
+      "name": "Javier Selva",
+      "aliases": [
+        "Javier Selva Castelló"
+      ],
+      "status": "former",
+      "roles": [
+        {
+          "role": "phd-student",
+          "from": null,
+          "to": "2024",
+          "source": "https://sergioescalera.com/students/"
+        }
+      ],
+      "website": "https://javierselva.github.io/",
+      "links": {},
+      "photo": "javi.png",
+      "affiliation": "Universitat de Barcelona",
+      "notes": "Tesi 2024.",
+      "verified": null
+    },
+    {
+      "id": "hugo-bertiche",
+      "name": "Hugo Bertiche",
+      "aliases": [
+        "Hugo Bertiche Argila"
+      ],
+      "status": "former",
+      "roles": [
+        {
+          "role": "phd-student",
+          "from": null,
+          "to": null,
+          "source": "https://sergioescalera.com/students/"
+        }
+      ],
+      "website": "https://hbertiche.github.io/",
+      "links": {},
+      "photo": "hugo_bertiche.png",
+      "affiliation": "Universitat de Barcelona",
+      "notes": "",
+      "verified": null
+    },
+    {
+      "id": "marc-oliu",
+      "name": "Marc Oliu",
+      "aliases": [],
+      "status": "former",
+      "roles": [
+        {
+          "role": "phd-student",
+          "from": null,
+          "to": null,
+          "source": "https://sergioescalera.com/students/"
+        }
+      ],
+      "website": "https://www.linkedin.com/in/marc-oliu-sim%C3%B3n-78146540/",
+      "links": {},
+      "photo": "marc_oliu.jpg",
+      "affiliation": "Universitat de Barcelona",
+      "notes": "",
+      "verified": null
+    },
+    {
+      "id": "manuel-lecha",
+      "name": "Manuel Lecha",
+      "aliases": [
+        "Manuel Lecha Sánchez"
+      ],
+      "status": "former",
+      "roles": [
+        {
+          "role": "phd-student",
+          "from": null,
+          "to": null,
+          "source": "https://web.archive.org/web/20260717172342/https://hupba.com/"
+        }
+      ],
+      "website": "https://manuellecha.com/",
+      "links": {},
+      "photo": "manuellecha-1-1024x1024.png",
+      "affiliation": "Universitat de Barcelona",
+      "notes": "Rol inferit; confirmar (pot haver estat màster/investigador).",
+      "verified": null
+    }
+  ]
+}
