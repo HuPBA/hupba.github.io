@@ -21,7 +21,8 @@ h3{margin:1.6rem 0 .6rem;font-size:1.05rem;color:var(--muted);text-transform:upp
 .card h3{margin:0 0 .4rem;text-transform:none;letter-spacing:0;font-size:1.15rem;color:var(--fg)}
 .people{list-style:none;margin:0;padding:0;display:grid;gap:1rem;grid-template-columns:repeat(auto-fill,minmax(8.5rem,1fr))}
 .people a{display:flex;flex-direction:column;align-items:center;text-align:center;text-decoration:none;color:var(--fg);font-size:.95rem;gap:.4rem}
-.people img,.people .ph{width:96px;height:96px;border-radius:50%;object-fit:cover;background:var(--soft);border:1px solid var(--line)}
+.people img,.people .ph{width:96px;height:96px;border-radius:50%;object-fit:cover;object-position:50% 20%;background:var(--soft);border:1px solid var(--line)}
 .people .ph{display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--muted);font-size:1.4rem}
 .people a:hover span:last-child{color:var(--accent)}
 footer{border-top:1px solid var(--line);padding:1.5rem 0 2.5rem;color:var(--muted);font-size:.95rem}
+.people .np{display:flex;flex-direction:column;align-items:center;text-align:center;font-size:.95rem;gap:.4rem}
