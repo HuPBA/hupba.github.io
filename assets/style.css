@@ -26,3 +26,10 @@ h3{margin:1.6rem 0 .6rem;font-size:1.05rem;color:var(--muted);text-transform:upp
 .people a:hover span:last-child{color:var(--accent)}
 footer{border-top:1px solid var(--line);padding:1.5rem 0 2.5rem;color:var(--muted);font-size:.95rem}
 .people .np{display:flex;flex-direction:column;align-items:center;text-align:center;font-size:.95rem;gap:.4rem}
+.projects{list-style:none;margin:0;padding:0}
+.projects li{display:grid;grid-template-columns:6.5rem 1fr;gap:.8rem;padding:.55rem 0;border-bottom:1px solid var(--line)}
+.projects .yr{color:var(--muted);font-variant-numeric:tabular-nums;font-size:.95rem}
+details{margin-top:1rem}
+summary{cursor:pointer;color:var(--accent);font-weight:600;padding:.4rem 0}
+@media(max-width:520px){.projects li{grid-template-columns:1fr;gap:0}}
+html{scroll-padding-top:4rem}
