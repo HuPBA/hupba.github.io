@@ -1,0 +1,27 @@
+:root{--bg:#fff;--fg:#1c2330;--muted:#5b6472;--accent:#0b5cad;--line:#e3e7ee;--soft:#f5f7fa}
+@media (prefers-color-scheme:dark){:root{--bg:#12161d;--fg:#e8ebf0;--muted:#9aa4b2;--accent:#6aa9f0;--line:#262d38;--soft:#1a2029}}
+*{box-sizing:border-box}
+body{margin:0;font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--fg)}
+a{color:var(--accent)}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1rem}
+header{border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--bg);z-index:2}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;padding-top:.6rem;padding-bottom:.6rem}
+.brand{display:flex;align-items:center;gap:.6rem;font-weight:700;color:var(--fg);text-decoration:none}
+.brand img{height:36px;width:auto}
+nav a{margin-left:1.1rem;text-decoration:none;color:var(--muted)}
+nav a:hover{color:var(--accent)}
+.hero{padding:3rem 0 2rem}
+.hero h1{font-size:clamp(1.9rem,5vw,2.8rem);line-height:1.15;margin:0 0 .6rem}
+.hero p{max-width:46rem;color:var(--muted);font-size:1.1rem}
+section{padding:2rem 0;border-top:1px solid var(--line)}
+h2{margin:0 0 1rem;font-size:1.6rem}
+h3{margin:1.6rem 0 .6rem;font-size:1.05rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.cards{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(18rem,1fr))}
+.card{background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:1.1rem 1.2rem}
+.card h3{margin:0 0 .4rem;text-transform:none;letter-spacing:0;font-size:1.15rem;color:var(--fg)}
+.people{list-style:none;margin:0;padding:0;display:grid;gap:1rem;grid-template-columns:repeat(auto-fill,minmax(8.5rem,1fr))}
+.people a{display:flex;flex-direction:column;align-items:center;text-align:center;text-decoration:none;color:var(--fg);font-size:.95rem;gap:.4rem}
+.people img,.people .ph{width:96px;height:96px;border-radius:50%;object-fit:cover;background:var(--soft);border:1px solid var(--line)}
+.people .ph{display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--muted);font-size:1.4rem}
+.people a:hover span:last-child{color:var(--accent)}
+footer{border-top:1px solid var(--line);padding:1.5rem 0 2.5rem;color:var(--muted);font-size:.95rem}
