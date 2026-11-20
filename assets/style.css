@@ -33,3 +33,5 @@ details{margin-top:1rem}
 summary{cursor:pointer;color:var(--accent);font-weight:600;padding:.4rem 0}
 @media(max-width:520px){.projects li{grid-template-columns:1fr;gap:0}}
 html{scroll-padding-top:4rem}
+.card ul{margin:.2rem 0 .6rem;padding-left:1.2rem}
+.card p{margin:.5rem 0}
