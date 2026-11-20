@@ -1,37 +1,61 @@
-:root{--bg:#fffefb;--fg:#222;--muted:#666;--accent:#8a1c1c;--line:#ddd8cc}
-@media (prefers-color-scheme:dark){:root{--bg:#171614;--fg:#e6e3dc;--muted:#a39f95;--accent:#e08a7e;--line:#33312c}}
+:root{--bg:#fff;--fg:#17202e;--muted:#5a6578;--accent:#2457d6;--line:#e3e8f0;--soft:#f4f7fb;--g1:#0a2a5e;--g2:#1668a8;--g3:#12a3a8}
+@media (prefers-color-scheme:dark){:root{--bg:#0e131b;--fg:#e8edf5;--muted:#9aa6b8;--accent:#7aa5ff;--line:#243044;--soft:#151c27;--g1:#08193a;--g2:#0f4a7c;--g3:#0c7f84}}
 *{box-sizing:border-box}
-html{scroll-padding-top:1rem}
-body{margin:0;background:var(--bg);color:var(--fg);font:18px/1.65 Charter,"Iowan Old Style",Georgia,serif}
-.page{max-width:46rem;margin:0 auto;padding:1.5rem 1.2rem 3rem}
-a{color:var(--accent);text-decoration-thickness:1px;text-underline-offset:2px}
-header{margin-bottom:2.2rem;border-bottom:1px solid var(--line);padding-bottom:1rem}
-.brand{display:flex;align-items:center;gap:.8rem;text-decoration:none;color:var(--fg);margin-bottom:.9rem}
-.brand img{height:44px;width:auto}
-.brand span{font-size:1.35rem;font-weight:700;line-height:1.2}
-.brand small{display:block;font-weight:400;font-size:.8rem;color:var(--muted);font-style:italic}
-nav{font-family:system-ui,-apple-system,sans-serif;font-size:.95rem}
-nav a{margin-right:1.3rem;color:var(--muted);text-decoration:none}
-nav a:hover,nav a[aria-current]{color:var(--accent)}
-nav a[aria-current]{border-bottom:2px solid var(--accent);padding-bottom:2px}
-h1{font-size:1.9rem;line-height:1.2;margin:0 0 1.2rem}
-h2{font-size:1.3rem;margin:2rem 0 .5rem}
-h3{font-size:1.05rem;margin:1.8rem 0 .6rem;font-style:italic;font-weight:600}
-.lead{font-size:1.15rem}
-.topic{margin:0 0 2rem}
-.topic h3{font-style:normal;font-size:1.25rem;margin-top:0}
-.topic p{margin:.5rem 0}
-.topic ul,main ul:not(.people):not(.projects){padding-left:1.2rem;margin:.3rem 0 .8rem}
-.people{list-style:none;margin:0;padding:0;columns:2;column-gap:2rem}
-.people li{break-inside:avoid;margin:0 0 .7rem}
-.people a,.people .np{display:flex;align-items:center;gap:.8rem;text-decoration:none;color:var(--fg)}
-.people a:hover span:last-child{color:var(--accent)}
-.people img,.people .ph{width:48px;height:48px;border-radius:50%;object-fit:cover;object-position:50% 20%;flex:none;background:var(--line)}
-.people .ph{display:flex;align-items:center;justify-content:center;font:600 .9rem system-ui,sans-serif;color:var(--muted)}
+html{scroll-padding-top:4.5rem}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{max-width:62rem;margin:0 auto;padding:0 1.25rem}
+a{color:var(--accent);text-underline-offset:3px}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px;border-radius:3px}
+.skip{position:absolute;left:-999px;top:0;background:var(--bg);padding:.5rem 1rem;z-index:10}
+.skip:focus{left:.5rem;top:.5rem}
+/* capçalera: menú sempre visible */
+.top{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:.5rem 1.5rem;flex-wrap:wrap;padding-top:.55rem;padding-bottom:.55rem}
+.brand{display:flex;align-items:center;gap:.6rem;font-weight:800;font-size:1.25rem;letter-spacing:.01em;color:var(--fg);text-decoration:none}
+.brand img{height:34px;width:auto}
+nav{display:flex;flex-wrap:wrap;gap:.1rem .3rem}
+nav a{padding:.35rem .7rem;border-radius:999px;color:var(--muted);text-decoration:none;font-weight:500;font-size:.97rem}
+nav a:hover{color:var(--fg);background:var(--soft)}
+nav a[aria-current]{color:#fff;background:linear-gradient(120deg,var(--g1),var(--g2))}
+/* hero (Home) i banda (resta) */
+.hero{background:radial-gradient(120% 140% at 85% 0%,var(--g3) 0%,transparent 55%),linear-gradient(135deg,var(--g1),var(--g2));color:#fff}
+.hero .wrap{display:flex;align-items:center;justify-content:space-between;gap:2rem;padding-top:3rem;padding-bottom:3rem}
+.hero h1{font-size:clamp(2.6rem,7vw,4rem);line-height:1;margin:0 0 .4rem;letter-spacing:-.02em}
+.hero .expand{font-size:1.15rem;font-weight:600;margin:0 0 1rem;opacity:.95}
+.hero p{max-width:38rem;margin:.4rem 0}
+.hero a{color:#fff;text-decoration-color:rgba(255,255,255,.55)}
+.hero a:hover{text-decoration-color:#fff}
+.motif{width:clamp(110px,22vw,200px);height:auto;flex:none}
+.band{background:linear-gradient(135deg,var(--g1),var(--g2));color:#fff}
+.band .wrap{padding-top:1.6rem;padding-bottom:1.6rem}
+.band h1{margin:0;font-size:clamp(1.7rem,4vw,2.3rem);letter-spacing:-.01em}
+/* contingut */
+main{padding-top:2rem;padding-bottom:3rem}
+h2{font-size:1.45rem;margin:2.2rem 0 .8rem;letter-spacing:-.01em}
+main>h2:first-child,main>section:first-child>h2{margin-top:0}
+h3{font-size:1.1rem;margin:1.6rem 0 .5rem}
+.block{padding:2rem 0;border-bottom:1px solid var(--line)}
+.block:first-child{padding-top:0}.block:last-child{border-bottom:0}
+.block h2{margin-top:0}
+.lines{display:grid;gap:1.5rem 2.5rem;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr))}
+.lines>div{border-left:3px solid;border-image:linear-gradient(var(--g2),var(--g3)) 1;padding-left:1rem}
+.lines h3{margin:0 0 .3rem}.lines p{margin:0}
+.more{margin:.8rem 0 0;font-weight:600}
+.topic{margin:0 0 2rem;padding-left:1rem;border-left:3px solid;border-image:linear-gradient(var(--g2),var(--g3)) 1}
+.topic h3{margin-top:0;font-size:1.25rem}.topic p{margin:.5rem 0}
+.topic ul,main ul:not(.people):not(.projects):not(.faces){padding-left:1.2rem;margin:.3rem 0 .8rem}
+/* persones */
+.people{list-style:none;margin:0;padding:0;display:grid;gap:.6rem 1.5rem;grid-template-columns:repeat(auto-fill,minmax(14rem,1fr))}
+.people a,.people .np{display:flex;align-items:center;gap:.8rem;padding:.35rem;border-radius:12px;text-decoration:none;color:var(--fg)}
+.people a:hover{background:var(--soft)}
+.people img,.people .ph,.faces img{width:56px;height:56px;border-radius:50%;object-fit:cover;object-position:50% 20%;flex:none;background:var(--soft);box-shadow:0 0 0 2px var(--bg),0 0 0 3px var(--line)}
+.people .ph{display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--muted)}
+.faces{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.6rem}
+/* llistes amb any */
 .projects{list-style:none;margin:0;padding:0}
-.projects li{display:grid;grid-template-columns:6.5rem 1fr;gap:.8rem;padding:.5rem 0;border-bottom:1px solid var(--line);font-size:.98rem;line-height:1.5}
-.projects .yr{color:var(--muted);font-family:system-ui,sans-serif;font-size:.85rem;padding-top:.15rem}
-details{margin-top:1.2rem}
-summary{cursor:pointer;color:var(--accent)}
-footer{margin-top:3rem;padding-top:1rem;border-top:1px solid var(--line);color:var(--muted);font-size:.85rem;font-family:system-ui,sans-serif}
-@media(max-width:560px){.people{columns:1}.projects li{grid-template-columns:1fr;gap:0}}
+.projects li{display:grid;grid-template-columns:7rem 1fr;gap:1rem;padding:.7rem 0;border-bottom:1px solid var(--line);line-height:1.5}
+.projects .yr{color:var(--muted);font-variant-numeric:tabular-nums;font-size:.92rem;padding-top:.1rem}
+details{margin-top:1.2rem}summary{cursor:pointer;color:var(--accent);font-weight:600}
+footer{border-top:1px solid var(--line);padding:1.5rem 0 2.5rem;color:var(--muted);font-size:.92rem}
+@media(max-width:560px){.hero .wrap{flex-direction:column-reverse;align-items:flex-start;gap:1.2rem;padding-top:2rem;padding-bottom:2rem}.projects li{grid-template-columns:1fr;gap:0}}
+@media(prefers-reduced-motion:no-preference){nav a{transition:background .15s,color .15s}}

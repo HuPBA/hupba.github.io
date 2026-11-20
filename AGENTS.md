@@ -3,7 +3,7 @@
 Instruccions per a qualsevol agent o persona que treballi en aquest repositori. És la **font de veritat** de les normes de treball; `CLAUDE.md` només hi afegeix detalls específics de Claude Code, i `DESIGN.md` recull les decisions de disseny.
 
 ## Què és això
-Web estàtica del grup de recerca HuPBA (Human Pose Recovery and Behavior Analysis, Universitat de Barcelona / Computer Vision Center), publicada amb GitHub Pages a https://hupba.github.io/. HTML + CSS pla, sense build per a les pàgines; només la pàgina de persones es genera a partir de dades.
+Web estàtica del grup de recerca HuPBA (Human Pose Recovery and Behavior Analysis, Universitat de Barcelona / Computer Vision Center), publicada amb GitHub Pages a https://hupba.github.io/. HTML + CSS pla, generat per scripts de Python sense dependències (`scripts/build_site.py`).
 
 ## Repositori **públic**: regles dures
 - Res de dades privades: **cap correu, telèfon, adreça, credencial, token ni nota interna**. Només el que ja és públic i d'ús raonable.
@@ -12,9 +12,9 @@ Web estàtica del grup de recerca HuPBA (Human Pose Recovery and Behavior Analys
 - Idioma de la web: anglès. Idioma de treball (commits, issues, docs interns): català.
 
 ## Estructura
-- `index.html`, `people.html`, `research.html`, `projects.html`, `events.html`: pàgines.
+- `templates/page.html` + `content/*.html` + `data/people.json`: **fonts** de les pàgines. `index.html`, `people.html`, `research.html`, `projects.html`, `events.html` s'**generen** (no s'editen a mà).
 - `assets/style.css`, `assets/img/`: estil i imatges.
-- `data/people.json`: **font de veritat de les persones** (vegeu més avall). `people.html` es genera d'aquí.
+- `data/people.json`: **font de veritat de les persones** (vegeu més avall). les pàgines (Home i People) es generen d'aquí.
 - `scripts/`: validació i generació.
 - `.claude/agents/`: agents especialitzats (disseny i accessibilitat; recerca d'informació).
 
@@ -34,8 +34,8 @@ Rols vàlids: `director`, `senior-member`, `postdoc`, `phd-student`, `master-stu
 ```bash
 python3 scripts/validate_people.py            # esquema, duplicats, contradiccions, fonts, privacitat
 python3 scripts/validate_people.py --online   # a més, comprova que les webs responen
-python3 scripts/build_people.py               # regenera people.html des de data/people.json
-python3 scripts/build_people.py --check       # falla si people.html no està al dia
+python3 scripts/build_site.py                 # regenera les pàgines HTML
+python3 scripts/build_site.py --check         # falla si alguna pàgina no està al dia
 ```
 Abans de cada commit: validar i regenerar. El CI (`.github/workflows/validate.yml`) ho comprova.
 
