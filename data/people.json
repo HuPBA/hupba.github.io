@@ -434,17 +434,17 @@
       "roles": [
         {
           "role": "phd-student",
-          "from": null,
-          "to": null,
-          "source": "https://sergioescalera.com/students/"
+          "from": "2022-02",
+          "to": "2025",
+          "source": "https://barquerogerman.github.io/"
         }
       ],
       "website": "https://barquerogerman.github.io/",
       "links": {},
       "photo": "GermanB1.jpg",
       "affiliation": "Universitat de Barcelona",
-      "notes": "",
-      "verified": null
+      "notes": "Doctorat per la UB (tesi On the Move: Towards Realistic and Controllable Human Motion Generation, dirigida per Sergio Escalera i Cristina Palmero). Segons la seva web, doctor el 2025; el repositori UB data la publicació el 2026-01-30 (https://hdl.handle.net/2445/228711). Data exacta de defensa no confirmada.",
+      "verified": "2026-11-20"
     },
     {
       "id": "zejian-zhang",
